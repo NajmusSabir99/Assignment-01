@@ -1,0 +1,271 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav h3{
+    width: 114px;
+    height: 34px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+nav button{
+    width: 228px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 24px 17px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+
+}
+.hero-bg{
+    background-image: url('assets/Hero-bg.png');
+    position: absolute;
+    width: 1440px;
+    height: 652px;
+    left: 0;
+    right: 0;
+    top: 131px;
+    bottom: 4462px;
+}
+.image-container{
+    position: absolute;
+    width: 998px;
+    height: 582px;
+    left: 221px;
+    right: 221px;
+    top: 26px;
+    bottom: 4506px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+.Group{
+    position: absolute;
+    width: 240.28px;
+    height: 240px;
+    left: 257.67%;
+    right: -257.67%;
+    top: 0%;
+    bottom: 0%;
+    transform: rotate(180.00deg);
+}
+.container{
+    position: absolute;
+    width: 998px;
+    height: 582px;
+    left: 221px;
+    right: 221px;
+    top: 26px;
+    bottom: 4506px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+.container h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.container p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.container button{
+    color: white;
+    position: static;
+    width: 208px;
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 24px 21px 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 32px 0px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    border: none;
+}
+.main-container{
+    position: absolute;
+    width: 980px;
+    height: 1395px;
+    left: 148px;
+    right: 140px;
+    top: 857px;
+    bottom: 2993px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.main-container h1{
+    position: static;
+    width: 852px;
+    height: 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.main-container p{
+    position: static;
+    width: 852px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.f1 {
+    position: static;
+    width: 50%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+}
+
+.f1 h1{
+    position: static;
+    width: 390px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.f1 p{
+    position: static;
+    width: 468px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+.f1 button{
+    position: static;
+    width: 171px;
+    height: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 32px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.f1-img{
+    width: 50%;
+    position: static;
+    width: 274.17px;
+    height: 240px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+    top: 1.74%;
+}
+.f1-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
