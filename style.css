@@ -110,6 +110,30 @@ nav button{
     text-align: center;
     opacity: 0.7;
 }
+.btn{
+    text-decoration: none;
+    color: white;
+}
+.skills1 a, .skills2 a, .skills3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.skills1 a:hover, .skills2 a:hover, .skills3 a:hover {
+    text-decoration: underline;
+    color: inherit;
+}
+.icons a {
+    margin: 0 10px; 
+    display: inline-block;
+}
+
+.icons img {
+    width: 40px; 
+    height: auto;
+    vertical-align: middle; 
+}
+
 .container button{
     color: white;
     position: static;
