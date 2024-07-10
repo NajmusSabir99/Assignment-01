@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 nav{
     display: flex;
     align-items: center;
@@ -32,13 +33,18 @@ nav button{
 }
 .hero-bg{
     background-image: url('assets/Hero-bg.png');
+    background-position: center;
+    background-size: cover;
     position: absolute;
-    width: 1440px;
+    width: 100%px;
     height: 652px;
     left: 0;
     right: 0;
     top: 131px;
     bottom: 4462px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .image-container{
     position: absolute;
@@ -1050,4 +1056,10 @@ footer{
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+}
+.icons{
+    padding-right: 100px;
+}
+.icons img{
+    padding: 10px;
 }
